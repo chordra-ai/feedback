@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/chordra-ai/feedback/discussions
+    about: Ask how to do something, or share how you use Chordra.
+  - name: Private or account matters
+    url: mailto:contact@chordra.ai
+    about: Billing, your account, or anything you'd rather not post in public.

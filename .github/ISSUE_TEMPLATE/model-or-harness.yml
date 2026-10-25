@@ -1,0 +1,36 @@
+name: Model or harness
+description: A model (DeepSeek, Kimi, …) or harness (Kimi Code, Cursor, DSH, …) you want to use with Chordra.
+labels: [models]
+body:
+  - type: input
+    id: what
+    attributes:
+      label: Model or harness
+      placeholder: e.g. DeepSeek Flash, Kimi K3.1, Cursor
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where are you running it?
+      options:
+        - Chordra Cloud
+        - My own computer
+    validations:
+      required: true
+  - type: dropdown
+    id: runtime
+    attributes:
+      label: Through which agent?
+      options:
+        - Claude Code
+        - Codex
+        - Pi
+        - Not sure
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: What you tried, what you expected, and any error you saw. Never paste API keys.
+    validations:
+      required: true

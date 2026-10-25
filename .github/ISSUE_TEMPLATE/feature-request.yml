@@ -1,0 +1,25 @@
+name: Feature request
+description: Something you'd like Chordra to do.
+labels: [feature]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What do you want to do?
+      description: Describe the job, not the button. What are you trying to get done?
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+      description: Your workaround, or another tool that already does it well.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where do you use Chordra?
+      multiple: true
+      options:
+        - Chordra Cloud
+        - My own computer
+        - Phone
