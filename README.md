@@ -18,4 +18,4 @@ more than a "+1" comment.
 Account, billing or anything private: email [contact@chordra.ai](mailto:contact@chordra.ai). Please don't post
 API keys, tokens or private code here.
 
-[chordra.ai](https://chordra.ai) · [X](https://x.com/chordra_hq) · [LinkedIn](https://www.linkedin.com/company/chordra-ai/)
+[chordra.ai](https://chordra.ai) · [X](https://x.com/chordra_ai) · [LinkedIn](https://www.linkedin.com/company/chordra-ai/)
